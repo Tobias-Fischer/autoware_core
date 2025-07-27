@@ -19,6 +19,7 @@
 #include <array>
 #include <stdexcept>
 #include <vector>
+#include <string>
 
 namespace autoware::interpolation
 {
