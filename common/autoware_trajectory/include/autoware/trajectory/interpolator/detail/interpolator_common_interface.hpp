@@ -21,6 +21,7 @@
 
 #include <utility>
 #include <vector>
+#include <algorithm>
 
 namespace autoware::experimental::trajectory::interpolator::detail
 {
