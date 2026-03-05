@@ -44,6 +44,7 @@ ament_auto_add_library(autoware_trajectory SHARED
   src/utils/footprint.cpp
   src/utils/velocity.cpp
 )
+target_link_libraries(autoware_trajectory fmt::fmt)
 
 if(BUILD_TESTING)
   ament_auto_find_test_dependencies()
